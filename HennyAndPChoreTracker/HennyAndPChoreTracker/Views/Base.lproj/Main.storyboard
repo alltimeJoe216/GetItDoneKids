@@ -17,24 +17,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="g3K-0h-2qm" userLabel="Progress Page Stack">
-                                <rect key="frame" x="0.0" y="128" width="810" height="824"/>
+                                <rect key="frame" x="0.0" y="202.5" width="810" height="675"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Henny + P Chore Tracker" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ju-ij-emS">
-                                        <rect key="frame" x="167" y="0.0" width="476" height="208.5"/>
-                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="73"/>
+                                        <rect key="frame" x="64" y="0.0" width="682.5" height="84.5"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="58"/>
                                         <color key="textColor" red="0.001362889959" green="0.49293293780000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="shadowOffset" width="-2" height="2"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HennyP" translatesAutoresizingMaskIntoConstraints="NO" id="aHv-Kx-E77">
-                                        <rect key="frame" x="225" y="241.5" width="360" height="325"/>
+                                        <rect key="frame" x="225" y="117.5" width="360" height="325"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="325" id="5L6-NG-9R9"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do work, kiddos!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avn-P7-2YJ">
-                                        <rect key="frame" x="266" y="599.5" width="278.5" height="52"/>
+                                        <rect key="frame" x="266" y="475.5" width="278.5" height="52"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
                                         <color key="textColor" red="0.001362889959" green="0.49293293780000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -42,16 +42,16 @@
                                         <size key="shadowOffset" width="-2" height="2"/>
                                     </label>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SIx-tW-jon" userLabel="Money Progress">
-                                        <rect key="frame" x="0.0" y="684.5" width="810" height="56"/>
+                                        <rect key="frame" x="0.0" y="560.5" width="810" height="31"/>
                                         <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="55" id="1S3-TY-yqZ"/>
+                                            <constraint firstAttribute="height" constant="30" id="1S3-TY-yqZ"/>
                                         </constraints>
                                         <color key="progressTintColor" systemColor="systemGreenColor"/>
                                         <color key="trackTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </progressView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="gvL-2k-aze" userLabel="Money Labels">
-                                        <rect key="frame" x="0.0" y="772.5" width="810" height="51.5"/>
+                                        <rect key="frame" x="20" y="623.5" width="770" height="51.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbP-Rq-jLg">
                                                 <rect key="frame" x="0.0" y="0.0" width="41" height="51.5"/>
@@ -63,7 +63,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pd3-uE-pJh">
-                                                <rect key="frame" x="347" y="0.0" width="110" height="51.5"/>
+                                                <rect key="frame" x="327" y="0.0" width="110" height="51.5"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="43"/>
                                                 <color key="textColor" systemColor="systemGreenColor"/>
                                                 <nil key="highlightedColor"/>
@@ -71,7 +71,7 @@
                                                 <size key="shadowOffset" width="-2" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$35" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1F-OE-6bv">
-                                                <rect key="frame" x="763" y="0.0" width="47" height="51.5"/>
+                                                <rect key="frame" x="723" y="0.0" width="47" height="51.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="41" id="aPg-4S-uC3"/>
                                                 </constraints>
@@ -83,9 +83,9 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="gvL-2k-aze" secondAttribute="trailing" id="6eY-ev-s7e"/>
+                                    <constraint firstAttribute="trailing" secondItem="gvL-2k-aze" secondAttribute="trailing" constant="20" id="6eY-ev-s7e"/>
                                     <constraint firstItem="SIx-tW-jon" firstAttribute="leading" secondItem="g3K-0h-2qm" secondAttribute="leading" id="UyZ-If-DId"/>
-                                    <constraint firstItem="gvL-2k-aze" firstAttribute="leading" secondItem="g3K-0h-2qm" secondAttribute="leading" id="en3-aW-63o"/>
+                                    <constraint firstItem="gvL-2k-aze" firstAttribute="leading" secondItem="g3K-0h-2qm" secondAttribute="leading" constant="20" id="en3-aW-63o"/>
                                     <constraint firstAttribute="trailing" secondItem="SIx-tW-jon" secondAttribute="trailing" id="z7m-bg-dqM"/>
                                 </constraints>
                             </stackView>
